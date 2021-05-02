@@ -1,9 +1,13 @@
-.about-container {
-  /* height: 90vh; */
-}
+/* .about-container {
+  height: 90vh;
+} */
 .profle-img {
-  width: 400px;
-  height: 470px;
-  /* border-radius: 50%;  */
-  margin-left: 100px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin-left: 80px;
+}
+.details-col {
+  text-align: justify;
+  padding: 0 30px;
 }

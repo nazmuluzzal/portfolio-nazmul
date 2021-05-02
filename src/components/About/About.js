@@ -7,10 +7,10 @@ const About = () => {
     <div className="about-container pt-4 pb-5 mb-5">
       <h1 className="text-center">About Me</h1>
       <div className="row mt-5">
-        <div className="col-md-6">
+        <div className="col-md-5">
           <img className="img-fluid profle-img" src={uzzalImg} alt="" />
         </div>
-        <div className="col-md-6">
+        <div className="col-md-7 details-col">
           <h3>Know in Details</h3>
           <h6>
             Hello, I'm Md. Nazmul Hasan. I always love to do coding and always

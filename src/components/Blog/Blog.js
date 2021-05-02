@@ -2,8 +2,9 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div>
-      <h1>Comming Soon</h1>
+    <div className="text-center mt-5">
+      <h1>Blogs</h1>
+      <h3>Coming Soon</h3>
     </div>
   );
 };

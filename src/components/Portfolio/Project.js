@@ -3,7 +3,7 @@ import "./Portfolio.css";
 
 const Project = ({ project }) => {
   return (
-    <div className="project-div text-center">
+    <div className="project-div text-center m-4">
       <img src={project.img} alt="" />
       <h3 className="text-white pt-4">{project.name}</h3>
       <p className="text-white pt-4">{project.details}</p>
