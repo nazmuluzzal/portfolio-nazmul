@@ -1,0 +1,10 @@
+.about-container {
+  height: 90vh;
+  background-color: lightblue;
+}
+.profle-img {
+  width: 400px;
+  height: 470px;
+  /* border-radius: 50%;  */
+  margin-left: 100px;
+}
