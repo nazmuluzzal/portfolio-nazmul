@@ -1,6 +1,12 @@
 .home-container {
   background-color: #1f2235;
   color: white;
-  height: 80vh;
-  padding-top: 200px;
+  height: 82vh;
+  padding-top: 180px;
+  /* align-items: center;
+  justify-content: center; */
+}
+.home-container h1 {
+  font-weight: 600;
+  font-size: 42px;
 }
