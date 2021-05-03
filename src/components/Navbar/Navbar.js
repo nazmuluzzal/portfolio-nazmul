@@ -1,15 +1,16 @@
 import React from "react";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light px-4">
+      <nav className="navbar navbar-expand-lg navbar-light px-4 pt-3">
         <div className="container-fluid">
           <a className="navbar-brand text-white" href="#">
             Portfolio
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler btn-info"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -20,7 +21,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
+            <ul className="navbar-nav ms-auto nav-hover">
               <li className="nav-item ">
                 <a
                   className="nav-link active text-white"
