@@ -1,6 +1,7 @@
-/* .about-container {
-  height: 90vh;
-} */
+.about-container {
+  /* height: 90vh; */
+  /* overflow-x: hidden; */
+}
 .profle-img {
   width: 350px;
   height: 350px;
@@ -10,4 +11,14 @@
 .details-col {
   text-align: justify;
   padding: 0 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .profle-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
 }

@@ -1,11 +1,23 @@
 .main-container {
   background-color: #1f2235;
   color: white;
+  /* position: relative;
+  z-index: 9999;
+  overflow-x: hidden; */
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Sora", sans-serif;
+  /* position: absolute; */
+  /* z-index: -9999; */
 }
+/* .particle-container {
+  position: absolute;
+  z-index: -9999;
+} */
 
+.span-txt {
+  color: #ff4a57;
+}
 .App-link {
   color: #61dafb;
 }

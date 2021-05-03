@@ -5,12 +5,23 @@
 }
 .project-div {
   width: 350px;
-  border: 1px solid #ff4a57;
+  border: 2px solid #ff4a57;
   padding: 18px;
-  border-radius: 16px;
+  border-radius: 10px;
 }
 
 .project-div img {
   width: 300px;
   height: 220px;
+  border-radius: 10px;
+}
+
+.preview-btn {
+  border: 2px solid #ff4a57;
+  /* background-color: #ff4a57; */
+  color: white;
+}
+.preview-btn:hover {
+  background-color: #ff4a57;
+  color: white;
 }

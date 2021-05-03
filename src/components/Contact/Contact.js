@@ -24,14 +24,17 @@ const Contact = () => {
     e.target.reset();
   }
   return (
-    <div className="text-center mt-5">
-      <h1>Contact With Me</h1>
-      <h3>Get In Touch</h3>
+    <div
+      id="contact"
+      className="text-center mt-5"
+      style={{ overflowX: "hidden" }}
+    >
+      <h1>
+        <span className="span-txt">Contact</span> With Me
+      </h1>
+      {/* <h3>Get In Touch</h3> */}
       <h4>Send Your Message</h4>
-      <form
-        className="contact-form border p-4 mx-auto mt-5"
-        onSubmit={sendEmail}
-      >
+      <form className="contact-form p-4 mx-auto mt-5" onSubmit={sendEmail}>
         <div className="form-group mt-4">
           <input
             name="name"

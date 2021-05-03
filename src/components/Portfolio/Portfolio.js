@@ -33,8 +33,11 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="pt-4">
-      <h1 className="text-center">Projects</h1>
+    <div id="portfolio" className="pt-4" style={{ overflowX: "hidden" }}>
+      <h1 className="text-center">
+        {" "}
+        <span className="span-txt">Projects</span>{" "}
+      </h1>
       <div className="project-container mt-5 mx-5">
         {projectsData.map((project) => (
           <Project project={project}></Project>

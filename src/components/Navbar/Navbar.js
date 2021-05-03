@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light px-4 pt-3">
         <div className="container-fluid">
-          <a className="navbar-brand text-white" href="#">
+          <a className="navbar-brand text-white" href="/#home">
             Portfolio
           </a>
           <button
@@ -26,28 +26,28 @@ const Navbar = () => {
                 <a
                   className="nav-link active text-white"
                   aria-current="page"
-                  href="#"
+                  href="/#home"
                 >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active text-white" href="#">
+                <a className="nav-link active text-white" href="/#about">
                   About
                 </a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link active text-white" href="#">
+                <a className="nav-link active text-white" href="/#portfolio">
                   Portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active text-white" href="#">
+                <a className="nav-link active text-white" href="/#blog">
                   Blog
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active  text-white" href="#">
+                <a className="nav-link active  text-white" href="/#contact">
                   Contact
                 </a>
               </li>
