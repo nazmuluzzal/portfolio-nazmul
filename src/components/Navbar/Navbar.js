@@ -10,7 +10,7 @@ const Navbar = () => {
             Portfolio
           </a>
           <button
-            className="navbar-toggler btn-info"
+            className="navbar-toggler text-white btn-info"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -56,7 +56,7 @@ const Navbar = () => {
                   className="nav-link"
                   href="https://drive.google.com/uc?export=download&id=1sLUPYUPo0xbg-Q_2tXcjk4vq8scM4SqC"
                 >
-                  <button className="btn btn-primary">Resume</button>
+                  <button className="btn resume-btn">Download Resume</button>
                 </a>
               </li>
             </ul>
