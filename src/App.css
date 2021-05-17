@@ -1,32 +1,16 @@
-.main-container {
+/* .main-container {
   background-color: #1f2235;
   color: white;
-  /* position: relative;
+  position: relative;
   z-index: 9999;
-  overflow-x: hidden; */
-}
+  overflow-x: hidden;
+} */
 body {
   font-family: "Sora", sans-serif;
-  /* position: absolute; */
-  /* z-index: -9999; */
+  background-color: #323538;
+  color: #adbac7;
 }
-/* .particle-container {
-  position: absolute;
-  z-index: -9999;
-} */
 
 .span-txt {
-  color: #ff4a57;
-}
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #ee5d43;
 }

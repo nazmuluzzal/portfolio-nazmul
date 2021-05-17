@@ -4,13 +4,13 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light px-4 pt-3">
+      <nav className="navbar navbar-expand-lg navbar-light px-5 pt-3">
         <div className="container-fluid">
-          <a className="navbar-brand text-white" href="/#home">
+          <a className="navbar-brand nav-txt-color" href="/#home">
             Portfolio
           </a>
           <button
-            className="navbar-toggler text-white btn-info"
+            className="navbar-toggler nav-txt-color toggle-btn"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -24,7 +24,7 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto nav-hover">
               <li className="nav-item ">
                 <a
-                  className="nav-link active text-white"
+                  className="nav-link active nav-txt-color"
                   aria-current="page"
                   href="/#home"
                 >
@@ -32,31 +32,23 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active text-white" href="/#about">
+                <a className="nav-link active nav-txt-color" href="/#about">
                   About
                 </a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link active text-white" href="/#portfolio">
+                <a className="nav-link active nav-txt-color" href="/#portfolio">
                   Portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active text-white" href="/#blog">
+                <a className="nav-link active nav-txt-color" href="/#blog">
                   Blog
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active  text-white" href="/#contact">
+                <a className="nav-link active  nav-txt-color" href="/#contact">
                   Contact
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://drive.google.com/uc?export=download&id=1sLUPYUPo0xbg-Q_2tXcjk4vq8scM4SqC"
-                >
-                  <button className="btn resume-btn">Download Resume</button>
                 </a>
               </li>
             </ul>

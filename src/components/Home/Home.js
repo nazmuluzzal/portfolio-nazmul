@@ -21,6 +21,17 @@ const Home = () => {
           />
         </span>
       </h5>
+      <div className="d-flex justify-content-center mt-5">
+        <a href="/#portfolio" className="nav-link">
+          <button className="btn portfolio-btn">My Portfolio</button>
+        </a>
+        <a
+          className="nav-link"
+          href="https://drive.google.com/uc?export=download&id=1sLUPYUPo0xbg-Q_2tXcjk4vq8scM4SqC"
+        >
+          <button className="btn resume-btn">Download Resume</button>
+        </a>
+      </div>
     </div>
   );
 };
